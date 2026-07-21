@@ -1,0 +1,37 @@
+h1,
+h2,
+h3,
+h4,
+a,
+button {
+	font-weight: var(--sm-bold);
+}
+
+h1 {
+	color: var(--clr-dark);
+	font-size: var(--fs-heading);
+	font-weight: var(--fw-bold);
+	letter-spacing: -1px;
+	word-spacing: -1px;
+}
+h2 {
+	color: var(--clr-dark);
+	font-size: var(--fs-section-heading);
+}
+h3 {
+	font-size: var(--fs-card-title);
+}
+h4 {
+	font-size: var(--fs-sub-title);
+}
+
+p {
+	color: var(--clr-body);
+	font-size: var(--fs-base);
+	font-weight: normal;
+}
+
+a,
+button {
+	font-size: var(--fs-link);
+}

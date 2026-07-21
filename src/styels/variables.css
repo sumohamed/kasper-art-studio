@@ -1,0 +1,32 @@
+:root {
+	--clr-primary: #19c8fa;
+	--clr-body: #a8a8a8;
+	--clr-dark: rgb(31, 32, 33);
+	--clr-light: #fff;
+	--bg-transparent: rgb(15 116 143 / 70%);
+	--bg-overlay: rgb(0 0 0 / 70%);
+	--bg-overlay2: rgb(31 32 33 / 90%);
+
+	--fs-small: 0.694rem;
+	--fs-link: 0.889rem;
+	--fs-base: 1rem;
+	--fs-icon: 1.266rem;
+	--fs-icon-img: 3rem;
+	--fs-description: 1.266rem;
+	--fs-sub-title: 1.424rem;
+	--fs-card-title: 1.602rem;
+	--fs-section-heading: 1.802rem;
+	--fs-heading: 2.027rem;
+
+	--fw-reg: 300;
+	--fw-med: 400;
+	--fw-bold: 600;
+
+	--space-xs: 0.25rem; /* 4px */
+	--space-sm: 0.5rem; /* 8px */
+	--space-md: 1rem; /* 16px */
+	--space-lg: 1.5rem; /* 24px */
+	--space-xl: 2rem; /* 32px */
+	--space-2xl: 3rem; /* 48px */
+	--space-3xl: 4rem; /* 48px */
+}

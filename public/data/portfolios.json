@@ -1,0 +1,64 @@
+{
+	"sectionHeader": {
+		"title": "Portfolio",
+		"subtitle": "Explore artwork created by our students, graduates, and featured artists."
+	},
+	"sectionList": [
+		{
+			"id": "P001",
+			"title": "Whispers of Nature",
+			"category": "painting",
+			"image": "/images/paint-1.jpg",
+			"author": "By Sarah Ahmed (Workshop Graduate)"
+		},
+		{
+			"id": "P002",
+			"title": "The Clay Form",
+			"category": "sculpting",
+			"image": "/images/sculpting-1.jpg",
+			"author": "By Omar Ali (Competition Winner)"
+		},
+		{
+			"id": "P003",
+			"title": "Neon Dreams",
+			"category": "digital art",
+			"image": "/images/digital-1.jpg",
+			"author": "By Mona Karim (Talent Program)"
+		},
+		{
+			"id": "P004",
+			"title": "Arabic Geometry",
+			"category": "calligraphy",
+			"image": "/images/calligraphy-1.jpg",
+			"author": "By Youssef Zayn (Featured Artist)"
+		},
+		{
+			"id": "P005",
+			"title": "Silent Emotions",
+			"category": "painting",
+			"image": "/images/paint-2.jpg",
+			"author": "By Aya Mostafa (Exhibition Winner)"
+		},
+		{
+			"id": "P006",
+			"title": "Abstract Shapes",
+			"category": "sculpting",
+			"image": "/images/sculpting-2.jpg",
+			"author": "By Khaled Noor (Masterclass Graduate)"
+		},
+		{
+			"id": "P007",
+			"title": "Cyber Aesthetics",
+			"category": "digital art",
+			"image": "/images/digital-2.jpg",
+			"author": "By Reem Wael (Annual Contest Finalist)"
+		},
+		{
+			"id": "P008",
+			"title": "Echoes of the Past",
+			"category": "calligraphy",
+			"image": "/images/calligraphy-2.jpg",
+			"author": "By Hany Kamel (Workshop Graduate)"
+		}
+	]
+}

@@ -1,0 +1,31 @@
+/* ? media queries for responsive design
+max-width: 767.98px (mobile devices)
+max-width: 991.98px (tablets devices) 
+max-width: 1999.98px (desktop devices)
+*/
+
+body {
+	position: relative;
+	font-size: var(--fs-base);
+	line-height: 1.5;
+	color: var(--clr-dark);
+	background-color: var(--clr-light);
+}
+
+.container {
+	width: calc(100% - 3rem);
+	max-width: 1200px;
+	margin-inline: auto;
+}
+
+.sr-only {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	padding: 0;
+	margin: -1px;
+	overflow: hidden;
+	clip: rect(0, 0, 0, 0);
+	white-space: nowrap;
+	border: 0;
+}
