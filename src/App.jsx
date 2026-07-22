@@ -13,9 +13,13 @@ import {
 	Subscribe,
 	Video,
 } from "./sections";
+import { useEffect } from "react";
 
-// TODO : use Meta data to change favicon, title and meta tags..
 const App = () => {
+	useEffect(() => {
+		window.scrollTo(0, 0);
+	}, []);
+
 	return (
 		<main id="home">
 			<Header />
