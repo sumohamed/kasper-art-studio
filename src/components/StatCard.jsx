@@ -1,9 +1,8 @@
-// import useCounter from "../features/useCounter";
 import styles from "./components.module.css";
 
 export const StatCard = ({ stat }) => {
-	// const { count } = useCounter(stat.number);
 	const Icon = stat.iconName;
+
 	return (
 		<article className={styles.statCard}>
 			<div className={styles.iconBox}>
