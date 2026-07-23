@@ -39,8 +39,6 @@ export const Carousel = ({
 		}
 	};
 
-	// const handleKeyDown =
-
 	return (
 		<section
 			className={sectionClass}
