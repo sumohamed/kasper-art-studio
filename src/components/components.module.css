@@ -238,3 +238,27 @@
 		}
 	}
 }
+
+.msg {
+	border: 2px solid var(--clr-dark);
+	border-radius: var(--space-sm);
+	background-color: var(--clr-light);
+	text-align: center;
+	width: fit-content;
+	padding: var(--space-sm) var(--space-md);
+
+	position: fixed;
+	left: 50%;
+	top: 5rem;
+	transform: translateX(-50%);
+	z-index: 4000;
+	font-size: var(--fs-link);
+	font-weight: var(--fw-med);
+
+	.suc {
+		color: green;
+	}
+	.err {
+		color: red;
+	}
+}

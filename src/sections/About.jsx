@@ -1,6 +1,6 @@
 import styles from "./Sections.module.css";
 import { images } from "../assets";
-import { ContentBox, SectionHeading } from "../components";
+import { SectionHeading } from "../components";
 import { Stats } from "./Stats";
 
 export const About = () => {
@@ -12,7 +12,7 @@ export const About = () => {
 					description="Curabitur arcu erat, accumsan id imperdiet et, porttitor at
 					sem. Mauris blandit aliquet elit, eget tincidunt."
 				/>
-				<ContentBox boxClass={styles.content}>
+				<div className={styles.content}>
 					<article className={styles.info}>
 						<h4>About Kasper</h4>
 						<p>
@@ -36,7 +36,7 @@ export const About = () => {
 							alt="art exhibition"
 						/>
 					</div>
-				</ContentBox>
+				</div>
 			</div>
 			<Stats />
 		</section>

@@ -1,11 +1,32 @@
 import styles from "./Sections.module.css";
-import { SectionHeading } from "../components";
+import { SectionHeading, StatusMessage } from "../components";
 import { ourPrices } from "../constants/prices";
+import { useContext } from "react";
+import { BookingContext } from "../features/booking/BookingContext";
+import { useStatusMsg } from "../hooks/useStatusMsg";
 
 export const Pricing = () => {
 	const { sectionHeader, plans } = ourPrices;
+	const { setSelectedPlan, selectedService, selectedPlan } =
+		useContext(BookingContext);
+	const { showMessage, setShowMessage } = useStatusMsg();
 
 	if (!plans) return <p>Loading...</p>;
+
+	const handleBookingPlan = (plan) => {
+		if (!selectedService) {
+			setShowMessage(true);
+		} else {
+			setSelectedPlan(plan);
+			setShowMessage(true);
+
+			document.getElementById("contact")?.scrollIntoView({
+				behavior: "smooth",
+			});
+
+			window.history.replaceState(null, "", "#contact");
+		}
+	};
 
 	return (
 		<section className={styles.pricing}>
@@ -38,7 +59,12 @@ export const Pricing = () => {
 										<li key={index}>{feature}</li>
 									))}
 								</ul>
-								<button className={styles.buyBtn}>Buy Now</button>
+								<button
+									className={styles.buyBtn}
+									onClick={() => handleBookingPlan(plan)}
+								>
+									Buy Now
+								</button>
 							</article>
 						);
 					})}
@@ -51,6 +77,18 @@ export const Pricing = () => {
 					<button className={styles.btn}>Contact Us</button>
 				</div>
 			</div>
+			{!selectedService && showMessage && (
+				<StatusMessage
+					dataType="error"
+					message="Please Select A service First"
+				/>
+			)}
+			{selectedService && selectedPlan && showMessage && (
+				<StatusMessage
+					dataType="success"
+					message={`"${selectedPlan.name}" plan selected sucessfuly`}
+				/>
+			)}
 		</section>
 	);
 };
