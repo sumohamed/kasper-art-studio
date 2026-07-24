@@ -2,19 +2,23 @@
 
 ## Project Overview
 
-Kasper is a modern creative platform built to support artists, students, and art enthusiasts through workshops, exhibitions, mentorship, and community engagement.
+Kasper Art Studio is a frontend portfolio project developed using React and Vite.
 
-The project was developed as a frontend-focused application to demonstrate component-based architecture, responsive design principles, state management, accessibility considerations, and scalable UI development.
+The project started as inspiration from the original Kasper template by Graphberry and was reimagined as a platform focused on art workshops, creative learning, exhibitions, and artist communities.
+
+The primary goal of the project was to practice real-world frontend development concepts while transforming a traditional landing page template into a more complete and interactive user experience.
 
 ---
 
-## Goals
+## Objectives
 
-- Create a welcoming platform for creative communities.
-- Present art workshops and educational programs.
-- Showcase artwork produced by students and artists.
-- Support artist visibility through exhibitions.
-- Provide a clear booking journey from service selection to inquiry submission.
+- Build a modern React application.
+- Practice component-based architecture.
+- Implement reusable UI patterns.
+- Manage shared data using Context API.
+- Create a responsive user experience.
+- Improve accessibility and SEO awareness.
+- Prepare the project for future backend integration.
 
 ---
 
@@ -23,76 +27,44 @@ The project was developed as a frontend-focused application to demonstrate compo
 - Beginner artists
 - Art students
 - Hobbyists
-- Emerging artists
 - Creative learners
+- Emerging artists
 
 ---
 
-## Core Features
+## Main Features
 
-### Hero Section
+### Workshops & Services
 
-Interactive slider introducing the platform and its mission.
-
-### Services
-
-Display available artistic disciplines and learning opportunities.
-
-### Features Section
-
-Highlights the main benefits of joining the creative community.
+Users can explore available artistic programs and learning opportunities.
 
 ### Portfolio
 
-Artwork gallery with category-based filtering.
-
-### Video Section
-
-Visual presentation of workshops and artistic activities.
-
-### About Section
-
-Platform overview and community statistics.
+Artwork can be filtered by category for a more interactive browsing experience.
 
 ### Testimonials
 
-Feedback from community members and workshop participants.
+Artist feedback is presented through a custom carousel component.
 
-### Skills
+### Pricing Plans
 
-Visual representation of artistic skill areas.
-
-### Pricing
-
-Multiple membership and learning plans.
+Visitors can compare available learning plans and continue the booking journey.
 
 ### Booking Workflow
 
-Users can select a service, choose a plan, and continue to the contact process.
+Users can:
 
-### Contact
+1. Select a service.
+2. Choose a pricing plan.
+3. Continue to the contact form.
 
-General inquiries and booking requests.
+### Contact & Subscription
 
-### Subscribe
-
-Newsletter subscription for announcements and updates.
-
----
-
-## Technical Objectives
-
-- Build a fully responsive layout.
-- Create reusable React components.
-- Implement Context API for shared state management.
-- Structure data using JSON-driven content.
-- Apply accessibility best practices.
-- Improve discoverability using SEO meta tags.
-- Deploy the application to a production environment.
+Visitors can submit inquiries and subscribe for future announcements.
 
 ---
 
-## Technology Stack
+## Technologies Used
 
 - React
 - Vite
@@ -104,6 +76,29 @@ Newsletter subscription for announcements and updates.
 
 ---
 
-## Live Demo
+## Learning Outcomes
 
-https://kasper-art-studio.vercel.app/
+Through this project I practiced:
+
+- React fundamentals
+- State management
+- Component reusability
+- Data-driven UI development
+- Responsive design
+- Semantic HTML
+- Accessibility considerations
+- Project organization
+- Deployment workflows
+
+---
+
+## Credits
+
+Design inspiration:
+Graphberry - Kasper Template
+
+Learning resources:
+Elzero Web School
+
+Development & customization:
+Sally Mohamed

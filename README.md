@@ -1,33 +1,34 @@
 # Kasper Art Studio
 
-Kasper is a responsive single-page web application designed for artists and creative communities. The platform showcases workshops, exhibitions, featured artwork, mentorship opportunities, and a complete booking workflow.
+A responsive single-page web application built with React and inspired by the original Kasper template from Graphberry.
 
-```md
-## Repository
-
-https://github.com/sumohamed/kasper-art-studio
+This project was redesigned and adapted into an art workshop and creative community platform, allowing users to explore artistic programs, view featured artwork, browse pricing plans, and connect with the studio through a complete booking workflow.
 
 ## Live Demo
 
 https://kasper-art-studio.vercel.app/
-```
+
+## Repository
+
+https://github.com/sumohamed/kasper-art-studio
 
 ## Features
 
-- Responsive single-page design
+- Responsive design
 - Hero slider
-- Services section
-- Interactive booking workflow
-- Portfolio filtering by category
+- Services showcase
+- Booking workflow
+- Pricing plans
+- Portfolio filtering
 - Testimonials carousel
 - Skills section
-- Pricing plans
 - Contact form
 - Newsletter subscription
+- Reusable React components
 - Context API state management
-- Reusable components architecture
-- SEO-ready meta tags
-- Accessibility-focused structure
+- Accessibility-aware structure
+- SEO meta tags
+- Vercel deployment
 
 ## Tech Stack
 
@@ -35,33 +36,16 @@ https://kasper-art-studio.vercel.app/
 - Vite
 - JavaScript (ES6+)
 - CSS Modules
-- React Icons
 - Context API
+- React Icons
 - Vercel
-
-## Project Structure
-
-```text
-src
-│
-├── assets
-├── components
-├── constants
-├── features for contexts
-├── hooks
-├── sections
-├── styles
-└── App.jsx
-```
-
-````
 
 ## Installation
 
 ```bash
 git clone https://github.com/sumohamed/kasper-art-studio.git
 
-cd kasper
+cd kasper-art-studio
 
 npm install
 
@@ -74,20 +58,12 @@ npm run dev
 npm run build
 ```
 
-## Deployment
+## Acknowledgements
 
-The project is deployed on Vercel.
+This project was inspired by the original Kasper template created by Graphberry.
 
-## Future Enhancements
-
-- Backend integration
-- Authentication system
-- Email notifications
-- Workshop booking management
-- Admin dashboard
-- Multi-language support
+Special thanks to Elzero Web School for the educational content and tutorials that helped me better understand frontend development concepts and project structure.
 
 ## Author
 
 Sally Mohamed
-````
